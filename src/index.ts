@@ -3,7 +3,7 @@ import { cors } from '@elysiajs/cors';
 import { db } from './db/db';
 import { sensors } from './db/schema';
 import { count, eq, sql } from 'drizzle-orm';
-import redis from './redis';
+import redis from './utils/redis';
 
 const app = new Elysia()
 
