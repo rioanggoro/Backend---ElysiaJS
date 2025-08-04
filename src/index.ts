@@ -6,7 +6,7 @@ import { count, eq, sql } from 'drizzle-orm';
 import redis from './redis';
 
 const app = new Elysia()
-  // Tambahkan plugin CORS agar bisa diakses oleh frontend Svelte
+
   .use(cors())
 
   // Endpoint untuk mengambil data dengan paginasi dan caching
